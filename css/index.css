@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    /* background-image: url("../pictures/background.jpg"); */
+    background-image: linear-gradient(rgb(102, 79, 192), rgb(159, 92, 92), rgb(219, 65, 65));
+    /* background-color: aliceblue; */
+    font-family: 'Nunito',sans-serif;
+    margin: auto;
+    font-size: large;
+    height:100vf;
+    margin:0;
+    background-attachment: fixed;
+    
+}
+
+#logo{
+    width:25%;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
+
+}
+.input{
+    background-color:rgb(242, 235, 242);
+    
+    
+}
+input[type = submit],#button{
+    background-color: rgb(56, 16, 75);
+    color:rgb(233, 229, 237);
+    box-shadow: 0 4px 8px 0  rgb(56, 16, 75), 0 4px 10px  rgb(56, 16, 75) ;
+    padding:4%;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: transform ease 0.3s;
+    font-size: 135%;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 1000;
+}
+input[type = submit]:hover,#button:hover{
+    transform: scale(110%);
+}
+.sign{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 2%;
+
+}
+.signin,.signup{
+    width : 40%;
+    flex-basis: 30%;
+    text-align: center;
+    padding: 3%;
+    border:solid;
+    border-color: #1e0a48;
+    border-width: 3px;
+    background-color:#401e8fa4;
+    
+}
+h1,h2,label{
+    color: rgba(255, 255, 255, 0.815);
+}
+::placeholder{
+    padding-left:7%;
+    color: rgba(57, 50, 50, 0.407);
+    font-weight: 550;
+
+}
+input{
+    width: 40%;
+    padding:1%;
+    font-size: 80%;
+}
+input[type=text], input[type=password]{
+    border: 0;
+    border-radius: 4%;
+    line-height: 1.85em;
+    border-radius: 15px;
+    
+}

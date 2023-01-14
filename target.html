@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Target</title>
+    <link rel="stylesheet" href="css/target.css">
+    <link rel="icon" href="pictures/logo.png">
+</head>
+<body>
+    <a href="main.html"><img id = "logo" src ="pictures/logo.png" alt="logo of website - SmartTasks"></a><br>
+    <h1>Create new target</h1>
+    <div id = "content">
+       
+        <form>
+            
+            <label for="name" class="labels">Name of target<br>
+            </label><input type ="text" name = "name" placeholder="target">
+            <br><br>
+    
+            <label for="type" class="labels">Type of target</label><br>
+            <div class="container">
+                <div class="radio">
+                    <input type = "radio" value = "amount" name = "type" id = "amount" >
+                <label for = "amount"> amount</label>
+                </div>
+        
+                <div class="radio">
+                    <input type = "radio" value = "todo" name = "type" id = "todo">
+                    <label for = "todo"> to do</label>
+                </div>
+                <div class="radio">
+                    <input type = "radio" value = "monetary" name = "type" id = "monetary">
+            <label for = "monetary"> monetary</label>
+            </div>
+            <div class="radio">
+            <input type = "radio" value = "task" name = "type" id = "task">
+            <label for = "task"> task-related</label>
+            </div>
+            </div>
+            <br>
+            
+            <input type = "submit" formaction="main.html" value="Create target">
+            <br>
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Task</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="pictures/logo.png">
+</head>
+<body>
+    <div class = "left">
+        <div class = "left1 logoo">
+        <img id = "logo" src ="pictures/logo_white.png" alt="logo of website - SmartTasks">
+        </div>
+        <br>
+        <div class = "left1 goal">
+        <button onclick="window.location.href='goal.html';" id = "goal">
+        Create a new goal
+        </button>
+        </div>
+        <br>
+        <div class = "left1 signout">
+        <button onclick="window.location.href='index.html';" id = "signout">
+        Sign out
+        </button>
+        </div>
+        
+    </div>
+    <div class = "right">
+        <h1>GOALS</h1>
+        <details>
+            <summary>
+                Drink more water
+            </summary>
+            deadline: 21/11/2025<br>
+            description: <br>
+            targets:<br>
+            <form>
+                <ul>
+                    <li>
+                        <label for = "amount">Drink 8 glasses of water a day</label><br><input type = 'number' placeholder="0" name = "amount">
+
+                    </li>
+                    <li>
+                        <label for = "amount">Carry a water bottle with me</label><input type = 'checkbox' name = "check">
+                    </li>
+                </ul>
+                
+            </form>
+        </details> 
+        <details>
+            <summary>
+                ADS assignment week 1
+            </summary>
+            deadline: 11/04/2024<br>
+            description:<br>
+            targets:<br>
+            <form>
+                <ul>
+                    <li>
+                        <label for = "check"> Finish implementations</label><input type = 'checkbox' name = "check">
+
+                    </li>
+                </ul>
+                
+            </form>
+        </details> 
+        <details>
+            <summary>
+                Buy a car
+            </summary>
+            deadline: 25/11/2023<br>
+            description:<br>
+            targets:
+            <form>
+                <ul>
+                    <li>
+                        <label for = "monetary"> Save 2 euros per day</label><br><input type = 'number' placeholder="0" step = '0.01' name = "monetary">
+
+
+                    </li>
+                    <li>
+                        <label for = "write"> Pick a car</label><br>
+                        <textarea id="name" name="name" placeholder="text" rows="3" cols="8"></textarea>
+
+                    </li>
+                </ul>
+                
+            </form>
+        </details> 
+        <details>
+            <summary>
+                Exercise more
+            </summary>
+            deadline: 21/11/2025<br>
+            description: <br>
+            targets:<br>
+            <form>
+                <ul>
+                    <li>
+                        <label for = "amount">Exercise 5 times a week</label><br><input type = 'number' placeholder="0" name = "amount">
+
+                    </li>
+                    <li>
+                        <label for = "amount">Eat more protein</label><br><textarea id="name" name="name" placeholder="text" rows="3" cols="8"></textarea>
+                    </li>
+                </ul>
+                
+            </form>
+        
+        
+    </div>
+</body>
+</html>

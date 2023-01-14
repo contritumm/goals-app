@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal creation</title>
+    <link rel="stylesheet" href="css/goal.css">
+    <link rel="icon" href="pictures/logo.png">
+</head>
+<body>
+    <a href="main.html"><img id = "logo" src ="pictures/logo.png" alt="logo of website - SmartTasks"></a>
+    <div id = "content">
+    <h1>
+        What is your goal?
+    </h1>
+    <form>
+        <input type ="text" placeholder="goal name" name = "goal">
+        <br>
+        <br>
+        <label for="deadline">By when do you want to achieve it?<br>
+        </label><input  type ="date" name = "deadline" id = "date" class = "description">
+        <br><br>
+
+        <label for="description">S.M.A.R.T. description</label><br>
+        <input type ="text" placeholder="description" name = "description" class = "description">
+        <br><br><br>
+        <input type = "submit" formaction="main.html" value="Create goal" >
+        <br><br>
+        <input type="submit" formaction="target.html" value = "Make targets">
+    </form>
+    </div>
+</body>
+</html>

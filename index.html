@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="pictures/logo.png">
+</head>
+<body>
+    
+    <img id = "logo" src ="pictures/logo_white.png" alt="logo of website - SmartTasks">
+    <div class = "sign">
+        <div class = "signin">
+            <h1>Welcome back!</h1>
+            <h2>SIGN IN</h2>
+            <form action="main.html" method="get">
+                <label for="username">Your username: </label>
+                <input type ="text" name = "username" class = "input" placeholder="username">
+                <br><br>
+                <label for="password">Your password:  </label>
+                <input type ="password" name = "password" class = "input" placeholder="password">
+                <br><br>
+
+                <input type = "submit" value="Sign in">
+            </form>
+        </div>
+        <div class = "signup">
+            <h1>Are you new here?</h1>
+            <h2>then you can sign up:</h2>
+            <button onclick="window.location.href='signup.html';" id = "button">
+                Sign up
+            </button>
+        </div>
+    </div>
+</body>
+</html>

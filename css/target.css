@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    font-family: 'Nunito',sans-serif;
+    background-color: rgb(234, 213, 213);   
+    margin:0;
+    width:100%;
+    font-size:  150%;
+    
+}
+
+h1{
+   text-align: center;
+    
+}
+#content{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: solid;
+    border-color: black;
+    padding: 2%;
+    color: rgb(250, 250, 250);
+    background-color: rgb(188, 69, 69);
+}
+img{
+    width:17%;
+}
+h1{
+    font-size: xxx-large;
+    margin-top: 0;
+}
+.labels{
+    font-size:x-large;
+    font-weight: 600;
+}
+::placeholder{
+    color: rgba(57, 50, 50, 0.407);
+    font-weight: 550;
+    padding-left:5%;
+    font-size:85%;
+}
+input{
+    border:0;
+    border-radius: 15px;
+}
+input[type=text]{
+    width: 30%;
+    padding:1%;
+    margin-top:2%;
+    font-size: 90%;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+}
+.radio{
+    text-align: left;
+}
+
+.container {
+ 
+    width: fit-content;
+    margin: 0 auto;
+}
+input[type = submit]{
+    cursor: pointer;
+    background-color: rgb(246, 246, 248);
+    font-weight: 600;
+    box-shadow: 0 2px 4px 0 rgb(26, 5, 46), 0 2px 5px rgb(6, 0, 12) ;
+    width: 30%;
+    padding:3%;
+    border-radius: 10px;
+    font-size: 100%;
+    transition: transform ease 0.3s;
+    padding: 2%;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 1200;
+}
+input[type = submit]:hover{
+    transform: scale(110%);
+}
+input[type='radio']:after {
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid rgb(108, 16, 31);
+}
+input[type='radio']:checked:after{
+    background-color: #11050a;
+   
+    content: '';
+}

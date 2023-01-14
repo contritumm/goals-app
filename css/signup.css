@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    /* background-color: rgb(58, 41, 126); */
+    font-family: 'Nunito',sans-serif;
+    margin: auto;
+    padding: auto;
+    color: white;
+    background-image: linear-gradient(rgb(102, 79, 192), rgb(159, 92, 92), rgb(213, 165, 165));
+    background-attachment: fixed;
+}
+h1{
+    margin-top: 6%;
+    font-size: 350%;
+    color:rgb(246, 255, 255);
+}
+h2{
+    font-size: 200%;
+}
+label, select{
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 2%;
+    font-size: 120%;
+
+}
+
+.labels{
+    margin-top: 6%;
+    
+}
+
+
+input[type=text], input[type=password], input[type=email], select{
+    border: 0;
+    border-radius: 4%;
+    line-height: 1.85em;
+    border-radius: 15px;
+    width: 35%;
+}
+
+.input, select{
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600; 
+    font-size: 100%;
+   
+
+}
+select{
+    font-weight: 450;
+    width: 35%;
+    font-size: 90%;
+    padding: 0.5% 2%;
+   
+}
+#content{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    margin-top: 5%;
+    background-color: rgba(26, 20, 48, 0.527);
+    
+}
+
+::placeholder{
+    color: rgba(57, 50, 50, 0.407);
+    font-weight: 550;
+    padding-left:7%;
+    font-size:89%;
+    
+}
+
+
+
+input[type = submit]{
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+    background-color: rgba(102, 79, 192, 0.491);
+    font-weight: 600;
+    box-shadow: 0 2px 4px 0 rgba(19, 4, 35, 0.884), 0 2px 5px rgba(5, 1, 10, 0.751) ;
+    width: 27%;
+    padding:2%;
+    border-radius: 10px;
+    font-size: 100%;
+    transition: transform ease 0.3s;
+    margin-bottom: 4%;
+    font-family: 'Nunito',sans-serif;
+    font-size: x-large;
+    border-color: rgba(32, 2, 80, 0.477); ;
+    
+
+}
+input[type = submit]:hover{
+    transform: scale(110%);
+}
